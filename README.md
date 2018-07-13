@@ -16,7 +16,7 @@ You will need an ESP8266 board with 4MB flash memory and a PS4 on fw 5.05 to use
 4. Compile and flash the software to your ESP32.
 
 ### How to connect and install PS4HEN:
-1. The ESP8266 will start an accesspoint named ESP8266 5.05 jailbreak server.
+1. The ESP8266 will start an accesspoint named `ESP8266 5.05 jailbreak server`.
 
 2. Connect to this AP with your PS4 and browse to http://192.168.4.1/ to enable PS4HEN on your PS4.
 
