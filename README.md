@@ -11,7 +11,7 @@ You will need an ESP8266 board with 4MB flash memory and a PS4 on fw 5.05 to use
 1. Download [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP) and [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer) and install these libraries in the Arduino libraries folder. 
 2. Restart the Arduino IDE after this step.
 
-3. Unpack the latest release zipfile.
+3. Unpack the [latest release](releases/latest) zipfile.
 
 4. Compile and flash the software to your ESP32.
 
