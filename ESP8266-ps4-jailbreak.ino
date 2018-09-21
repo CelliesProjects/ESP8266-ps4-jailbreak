@@ -5,13 +5,14 @@
 #include "index_htm.h"
 
 const char * WIFISSID = "ESP8266 5.05 jailbreak server";
+const uint8_t ONBOARD_LED = 2;
 
 void setup(void) {
   Serial.begin( 115200 );
   Serial.println();
   Serial.println();
-  pinMode( BUILTIN_LED, OUTPUT );
-  digitalWrite( BUILTIN_LED, LOW );
+  pinMode( ONBOARD_LED, OUTPUT );
+  digitalWrite( ONBOARD_LED, LOW );
 
   WiFi.mode( WIFI_AP );
   WiFi.softAP( WIFISSID );
@@ -39,7 +40,7 @@ void setup(void) {
   Serial.print( WiFi.softAPIP().toString()  );
   Serial.println( "' to jailbreak your PS4." );
 
-  digitalWrite( BUILTIN_LED, HIGH );
+  digitalWrite( ONBOARD_LED, HIGH );
 }
 
 void loop(void)
