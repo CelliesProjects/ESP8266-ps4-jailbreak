@@ -6,8 +6,6 @@
 
 const char * WIFISSID = "ESP8266 5.05 jailbreak server";
 
-AsyncWebServer server(80);
-
 void setup(void) {
   Serial.begin( 115200 );
   Serial.println();
@@ -20,6 +18,7 @@ void setup(void) {
 
   Serial.printf( "1. Connect your PS4 to '%s' access point.\n", WIFISSID );
 
+  static AsyncWebServer server(80);
   static const char * HTML_HEADER = "text/html";
 
   server.on( "/", HTTP_GET, [] ( AsyncWebServerRequest * request )
