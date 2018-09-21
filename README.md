@@ -1,5 +1,5 @@
 
-## esp32-ps4-jailbreak
+## esp8266-ps4-jailbreak
 
 This is a minimal implementation of the PS4 hack by qwertyoruiopz.
 
@@ -13,7 +13,7 @@ You will need an ESP8266 board with 4MB flash memory and a PS4 on fw 5.05 to use
 
 3. Unpack the [latest release](releases/latest) zipfile.
 
-4. Compile and flash the software to your ESP32.
+4. Compile and flash the software to your ESP8266.
 
 ### How to connect and install PS4HEN:
 1. The ESP8266 will start an accesspoint named `ESP8266 5.05 jailbreak server`.
