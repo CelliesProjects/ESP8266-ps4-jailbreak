@@ -3,7 +3,7 @@
 
 This is a minimal implementation of the PS4 hack by qwertyoruiopz.
 
-It only contains the 'PS4HEN v1.6'.
+It only contains the 'PS4HEN v2.1.2'.
 
 You will need an ESP8266 board with 4MB flash memory and a PS4 on fw 5.05 to use the software.
 
