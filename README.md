@@ -5,7 +5,7 @@ This is a minimal implementation of the PS4 hack by qwertyoruiopz.
 
 It only contains the 'PS4HEN v2.1.2'.
 
-You will need an ESP8266 board with 4MB flash memory and a PS4 on fw 5.05 to use the software.
+You will need an ESP8266 board with 4MB flash memory and a PS4 on fw 5.05 (or a later hackable firmware) to use the software.
 
 ### How to flash your ESP8266:
 1. Download [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP) and [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer) and install these libraries in the Arduino libraries folder. 
