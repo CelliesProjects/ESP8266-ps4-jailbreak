@@ -1,6 +1,8 @@
 
 ## esp8266-ps4-jailbreak
 
+###  For PS4 FW 9.00 there is a new version online at https://github.com/CelliesProjects/ps4_jb900_esp8266
+
 This is a minimal implementation of the PS4 hack by qwertyoruiopz.
 
 It only contains the 'PS4HEN v2.1.2'.
